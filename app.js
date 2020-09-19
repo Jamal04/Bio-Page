@@ -5,9 +5,9 @@ function viral(n) {
   for (let i = 1; i <= n; i++) {
     likers = Math.floor(shared / 2);
     total += likers;
-    shared = likers * 2;
+    shared = likers * 3;
   }
-  return likers;
+  return total;
 }
 
 function countDigits(number) {
